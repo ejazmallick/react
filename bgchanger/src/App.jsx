@@ -25,6 +25,41 @@ function App() {
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor: "blue"}}
           >Blue</button>
+          <button
+          onClick={() => setColor("olive")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "olive"}}
+          >olive</button>
+          <button
+          onClick={() => setColor("grey")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "grey"}}
+          >grey</button>
+          <button
+          onClick={() => setColor("yellow")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "yellow"}}
+          >yellow</button>
+          <button
+          onClick={() => setColor("pink")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "pink"}}
+          >pink</button>
+          <button
+          onClick={() => setColor("purple")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "purple"}}
+          >purple</button>
+          <button
+          onClick={() => setColor("lavender")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "lavender"}}
+          >lavender</button>
+          <button
+          onClick={() => setColor("white")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "white"}}
+          >white</button>
         </div>
       </div>
     </div>
