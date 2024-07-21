@@ -60,6 +60,11 @@ function App() {
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor: "white"}}
           >white</button>
+          <button
+          onClick={() => setColor("black")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "black"}}
+          >black</button>
         </div>
       </div>
     </div>
@@ -67,3 +72,4 @@ function App() {
 }
 
 export default App
+
