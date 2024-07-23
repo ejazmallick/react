@@ -9,8 +9,6 @@ import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
-import Instagram, { instagramInfoLoader } from "./components/Instagram/Instagram.jsx"
-
 
 // const router = createBrowserRouter([
 //   {
@@ -45,9 +43,7 @@ const router = createBrowserRouter(
       path='github' 
       element={<Github />}
        />
-       <Route 
-       loader={instagramInfoLoader}
-       path='Instagram' element={<Instagram />} />
+      
     </Route>
   )
 )
